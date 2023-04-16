@@ -1,4 +1,4 @@
-# Case Study: Which Months Have the Highest Infection Cases of Covid-19 Virus in Puerto Rico?
+# Case Study: Which Months Had the Highest Infection Cases of Covid-19 Virus in Puerto Rico?
 ### Summary
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is a personal investigation project that I decided to do when one day I was reading the statistics about Covid-19 and I wondered which were the months with the highest cases of the virus in Puerto Rico. Also, I seek to identify what happened during those months that made the infection rate increase. On the other hand, the months I will be using during this investigation are between the years 2020 and 2022.
