@@ -21,9 +21,9 @@
 
 ## Visualization
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the visualization stage I started creating the visuals in Tableau with the existing analysis stage results. 
+* The link for the viualization: https://public.tableau.com/app/profile/joseph.marrero/viz/PuertoRicoCovidCases/PR_Month_Cases
 
-![PR Covid Cases](Visual/PR_C_M.png)
+![PR Covid Cases](Visual/PR_Monthly.png)
 
 ## Conclusion
 
