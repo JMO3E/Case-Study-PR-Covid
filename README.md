@@ -1,30 +1,43 @@
 # Case Study: Which Months Had the Highest Infection Cases of Covid-19 Virus in Puerto Rico?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is a personal investigation project that I decided to do when one day I was reading the statistics about Covid-19 and I wondered which were the months with the highest cases of the virus in Puerto Rico. Also, I seek to identify what happened during those months that made the infection rate increase. On the other hand, the months I will be using during this investigation are between the years 2020 and 2022.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is a personal investigation project that I decided to do when one day I was reading the statistics about Covid-19 and I wondered which were the months with the highest cases of the virus in Puerto Rico.
+
+## Objetive
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Find which were the months with the highest cases of the covid-19 virus in Puerto Rico and identify what caused those months to have the highest cases of infection.
 
 ## Questions
-1.	Which month has the highest cases of Covid-19 in Puerto Rico?
-2.	What happened during these months that made the Covid-19 cases increase?
+1.	Which months had the highest cases of Covid-19 in Puerto Rico?
+2.	What happened during these months that caused Covid-19 cases to increase?
+   
+## Tools & Technologies
+* Dataset - [Department of Health of Puerto Rico](https://www.salud.pr.gov/)
+* Database - [MySQL](https://www.mysql.com/)
+* MS Office - [Excel](https://www.microsoft.com/en-us/microsoft-365/excel)
+* Data Visualization - [Tableau](https://www.tableau.com/)
+* Language - [SQL](https://www.mysql.com/)
 
+## Data Analysis Process
 
-## Gathering
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the gathering stage, I began to search for the data on the internet. The website that has all the data needed for this project was the Department of Health of Puerto Rico. After finding it, I downloaded the dataset that is in csv format. Then I opened the file to see and analyze the structure of the data before beginning with the transform stage.
+1. Collect
+   
+      * First, I get the dataset from the Department of Health of Puerto Rico that is in csv format. This dataset only have data from the years of 2020 and 2022.
   
-## Transform
+2. Clean
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the transformation stage I began by creating a copy of the file, to have a backup in case of problems. Then started hiding some columns that would not be needed. Also, the date column is modified to a better type of date for the analysis stage. In addition, I edited each column data type. After that, I save the file to begin with the analysis stage.
+    * Before I began cleaning the data in Excel, I create a copy of each file in case something bad happen while cleaning. Then start hiding some columns that would not be needed. Also, the date column is modified to a better type of date for the analysis stage. In addition, I set each column to their data type because the were in text format. After that, I save the file to begin with the analysis stage.
 
-## Analysis
+3. Analyze
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the analysis stage the first thing a did was to export the dataset to MySQL to begin with the analysis. The first query that I did was to get the total case of covid between March 2020 and June 2022. Next, I made a query to get the total case by month. Finally, I exported all the results in a csv format to begin with visualization stage.
+    * In the analyze step the first thing a did was to export the dataset to MySQL. Then I create queries to get the total case of covid by month between March 2020 and June 2022 in Puerto Rico and also the total case by month per region. Finally, I exported all the results in csv format to Tableau.
 
-## Visualization
+4. Visualization
 
-* The link for the viualization: https://public.tableau.com/app/profile/joseph.marrero/viz/PuertoRicoCovidCases/PR_Month_Cases
-
-![PR Covid Cases](Visual/PR_Monthly.png)
+   * In the final step I started creating linear graph for each of the csv files and then created the dashboard that will show both graph together.
 
 ## Conclusion
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After doing this personal investigation, I found that there are many months with the highest covid cases in Puerto Rico. The first months with highest cases are between December 2021 and January 2022, which correlate with Christmas time and bad bunny concerts. On the other hand, the other months with highest cases are between April and June of 2022. During these months the government removed all covid-19 virus restrictions. Finally, with this case study I was able to find which were the months with the highest cases of covid-19 in Puerto Rico.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally, after finishing with the analysis, I found that there are two group of months with the highest covid cases in Puerto Rico. The first group of months with highest cases are between December 2021 and January 2022, which correlate with Christmas Holidays and bad bunny concerts. On the other hand, the other group of months with highest cases are between April and June of 2022. During these months the government removed all covid-19 virus restrictions. Finally, with this case study I was able to find which were the months with the highest cases of covid-19 in Puerto Rico and what caused those months to have the highest cases of infection.
+
+* The link for the visualization: https://public.tableau.com/app/profile/joseph.marrero/viz/PuertoRicoCovidCases/PR_Month_Cases
+
+![PR Covid Cases](Visual/PR_Monthly.png)
