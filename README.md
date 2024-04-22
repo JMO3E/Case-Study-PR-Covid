@@ -24,7 +24,7 @@
   
 2. Clean
 
-    * Before I began cleaning the data in Excel, I create a copy of each file in case something bad happen while cleaning. Then start hiding some columns that would not be needed. Also, the date column is modified to a better type of date for the analysis stage. In addition, I set each column to their data type because the were in text format. After that, I save the file to begin with the analysis stage.
+    * Before I began cleaning the data in Excel, I create a copy of each file in case something bad happen while cleaning. Then start hiding some columns that would not be needed. Also, the date column is modified to a better type of date for the analysis stage. In addition, I set each column to their data type because they were in text format. After that, I save the file to begin with the analysis stage.
 
 3. Analyze
 
