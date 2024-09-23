@@ -1,6 +1,6 @@
-# Case Study: Which Months Had the Highest Infection Cases of Covid-19 Virus in Puerto Rico?
+# Case Study: Which months had the highest infection cases of Covid-19 virus in Puerto Rico?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is a personal investigation project that I decided to do when one day I was reading the statistics about Covid-19 and I wondered which were the months with the highest cases of the virus in Puerto Rico.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is a data analysis project where I use a dataset of all Covid-19 virus cases in Puerto Rico between 2020 and 2022. The objective was to find which were the months with the highest cases and what made them the highest ones. The tools used for the project were Excel, SQL, MySQL, and Tableau.
 
 ## Objetive
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Find which were the months with the highest cases of the covid-19 virus in Puerto Rico and identify what caused those months to have the highest cases of infection.
