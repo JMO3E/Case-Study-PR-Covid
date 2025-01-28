@@ -1,6 +1,6 @@
 # Case Study: Which months had the highest infection cases of Covid-19 virus in Puerto Rico?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is a data analysis project where I use a dataset of all Covid-19 virus cases in Puerto Rico between 2020 and 2022. The objective was to find which were the months with the highest cases and what made them the highest ones. The tools used for the project were Excel, SQL, MySQL, and Tableau.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This data analysis project focuses on examining Covid-19 case trends in Puerto Rico from 2020 to 2022. The primary goal was to identify the months with the highest case numbers and what factors contributed to those spikes. To achieve this, I utilized tools such as Excel, SQL, MySQL, and Tableau. By analyzing the dataset, I was able to uncover correlations between the spikes in cases and specific events that took place during that time.
 
 ## Objetive
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Find which were the months with the highest cases of the covid-19 virus in Puerto Rico and identify what caused those months to have the highest cases of infection.
